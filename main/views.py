@@ -41,7 +41,7 @@ class CommentViewSet(CommentPermissionMixin, ModelViewSet, ):
 
 
 class MyPaginationClass(PageNumberPagination):
-    page_size = 3
+    page_size = 1
 
     def get_paginated_response(self, data):
         for i in range(self.page_size):

@@ -41,7 +41,7 @@ class ProductSerializer(serializers.ModelSerializer):
     def create(self, validated_data):
         request = self.context.get('request')
         user_id = request.user.id
-        validated_data['author_id'] = user_id
+        validated_data['added_by_id'] = user_id
         product = Product.objects.create(**validated_data)
         return product
 
