@@ -148,8 +148,8 @@ AUTH_USER_MODEL = 'account.MyUser'
 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'evergreen212n@gmail.com'
-EMAIL_HOST_PASSWORD = 'LGU77TI@'
+EMAIL_HOST_USER = 'yourmail@gmail.com'
+EMAIL_HOST_PASSWORD = 'yourpassword'
 EMAIL_USE_TLS = True
 
 
